@@ -5,6 +5,6 @@
   "keep_vars": true,
   // 아래 "여기에_KV_ID"를 Cloudflare KV 저장소의 ID로 바꾸세요
   "kv_namespaces": [
-    { "binding": "EXAMS", "id": "여기에_KV_ID" }
+    { "binding": "EXAMS", "id": "0beb79211b0f488bae4e1cedf69f19e0" }
   ]
 }
