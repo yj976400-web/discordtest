@@ -2,5 +2,9 @@
   "name": "exam-site",
   "main": "worker.js",
   "compatibility_date": "2025-09-01",
-  "keep_vars": true
+  "keep_vars": true,
+  // 아래 "여기에_KV_ID"를 Cloudflare KV 저장소의 ID로 바꾸세요
+  "kv_namespaces": [
+    { "binding": "EXAMS", "id": "여기에_KV_ID" }
+  ]
 }
